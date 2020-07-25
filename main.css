@@ -1,0 +1,81 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    font-weight: bold;
+    color: white;
+}
+
+#navLinks {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    color: black;
+}
+
+ul#navlinks {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul#navlinks li {
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#navlinks > ul > li > a {
+color: black;
+}
+
+.fullPage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    
+
+}
+
+#bioPage {
+    
+    background-color: red;
+    color: white;
+    
+}
+
+#technologiesPage {
+background-color: green;
+color: white;
+}
+
+#projectsPage {
+    background-color: black;
+    color: blue;
+}
+
+.page-footer {
+    position: relative;
+    height:50px;
+    width: 100%;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+   
+}
+
+footer .contact-info {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.linkedin, .github, .email {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
