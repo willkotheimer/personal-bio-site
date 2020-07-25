@@ -22,30 +22,29 @@ const printToDom = (id, stringToPrint) => {
 // createProjectCards: This function() should loop 
 //through the projects array and build up a 'dom string' 
 
-const ProjectCards = (projects) => {
+const createProjectCards = (projectsForCards) => {
     let myString = "";
-
-    for (let x = 0; x < projects.length; x++) {
-        if (projects[x].available != 'true') {
+    for (let x = 0; x < projectsForCards.length; x++) {
+        if (projectsForCards[x].available !== true) {
             continue;
         } else {
             myString += `
             
-            <div class="title">${projects[x].title}</div>
-            <div class="screenshot">${projects[x].screenshot}</div>
-            <div class="description">${projects[x].description}</div>
-            <div class="technologiesUsed">${projects[x].technologiesUsed}</div>
-            <div class=" url">${projects[x].url}</div>
-            <div class="githubUrl">${projects[x].githubUrl}</div>
+            <div class="title">${projectsForCards[x].title}</div>
+            <div class="screenshot">${projectsForCards[x].screenshot}</div>
+            <div class="description">${projectsForCards[x].description}</div>
+            <div class="technologiesUsed">${projectsForCards[x].technologiesUsed}</div>
+            <div class=" url">${projectsForCards[x].url}</div>
+            <div class="githubUrl">${projectsForCards[x].githubUrl}</div>
             `
         }
     }
-
-    printToDom = ("projectsPage", myString);
+    printToDom('projectsPage', myString);
 }
 
-init1() = () => {
-    createProjectCards();
+const init1 = (projects) => {
+    console.log(projects);
+    createProjectCards(projects);
 }
 
-init1();
+init1(projects);
