@@ -3,8 +3,8 @@
 const projects = [
     {
         title: "Pet Adoption",
-        screenshot: "",
-        description: "This is a project that allowed me to work on some good javascript design patterns.", // A good project description includes 'the what', 'the why', and 'the how'.
+        screenshot: "/images/petAdoption.PNG",
+        description: "This is a project that allowed me to work on design patterns for javascript event listeners.", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
         url: "https://gifted-brattain-dcd491.netlify.app", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
@@ -31,11 +31,11 @@ const createProjectCards = (projectsForCards) => {
             myString += `
             
             <div class="title">${projectsForCards[x].title}</div>
-            <div class="screenshot">${projectsForCards[x].screenshot}</div>
+            <div class="screenshot"><img class='project' src='${projectsForCards[x].screenshot}'/></div>
             <div class="description">${projectsForCards[x].description}</div>
             <div class="technologiesUsed">${projectsForCards[x].technologiesUsed}</div>
-            <div class=" url">${projectsForCards[x].url}</div>
-            <div class="githubUrl">${projectsForCards[x].githubUrl}</div>
+            <div class=" url"><a href='${projectsForCards[x].url}'>Pet Adoption Site</a></div>
+            <div class="githubUrl"><a href='${projectsForCards[x].githubUrl}'>https://github.com/willkotheimer/pet-adoption</a></div>
             `
         }
     }

@@ -11,7 +11,13 @@
 
 <body>
     <header>
-        <h1><span class="name">Will Kotheimer</span><span class="pipe">|</span><span class="description">Web and QA
+        <div id="logo"><span class="q">q</span><span class="a">a</span>
+            <span class="plus">+</span><span class="d">d</span><span class="logo-pipe">|</span>
+            <span class="logo-initial">WK</span>
+        </div>
+        </div>
+        <h1 class="title"><span class="name">Will Kotheimer</span><span class="pipe">|</span><span
+                class="description">Web and QA
                 Engineering Bio</span></h1>
 
 
@@ -20,9 +26,9 @@
     <nav>
         <!-- TODO: Insert some sort of H1-H6 with your name here -->
         <ul id="navLinks">
-            <li><a id="#">Bio</a></li>
-            <li><a id="#">Technologies</a></li>
-            <li><a id="#">Projects</a></li>
+            <li><a href="#">Bio</a></li>
+            <li><a href="#">Technologies</a></li>
+            <li><a href="#">Projects</a></li>
         </ul>
     </nav>
     <!-- End Navigation -->
@@ -32,7 +38,7 @@
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
     <section class="fullPage" id="bioPage">
         <header>Background and interest in development:</header>
-        <!--<img src="images/familyPhoto.JPG" />-->
+
         <p>When I started out, I wanted to break into writing. I enjoyed the expression and community around it.
 
             I ended up in writing camp by my Junior year of high school. But then I pivoted; I decided I wanted to make
@@ -53,9 +59,23 @@
             just hadn't gotten the opportunity to work with before, namely .Net and React. What I hope to get out of
             this
             is the chance to work in Selenium Engineering or .Net App development.</p>
+        <div class='image-div'>family photo</div>
     </section>
 
+    <section class="fullpage" id="devjobs">
+        <header>Places I've been:</header>
+        <p>(2020-Present) Nashville Software School - part-time Full Stack Development</p>
+        <p>(2019-Present) 360 View - Junior Quality Assurance</p>
 
+        <p>(2018-2019) Jack Roe USA - Tech Support and QA</p>
+
+        <p>(2017-2018) Advance Financial - Customer Service</p>
+
+        <p>(2016-2017) Onin Group - PHP Developer</p>
+
+        <p>(2015-2016) Acxiom - Email Developer</p>
+        <p>(2010-2014) Western Kentucky University, Computer Science</p>
+    </section>
 
     <section class="fullPage" id="technologiesPage">
         <header>Technologies I use:</header>
@@ -64,7 +84,7 @@
             <li>HTML/CSS</li>
             <li>Javascript</li>
             <li>C#, Java, Python,SQL</li>
-            <li>Selenium Webdriver</li>
+            <li>Selenium Webdriver/Specflow</li>
             <li>XPATH</li>
         </ul>
     </section>
@@ -73,13 +93,14 @@
     <!-- End Primary View -->
 
     <!-- Footer -->
-    <footer class="page-footer">
+    <footer>
         <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-        <header>Contact me:</header>
+
         <div class="contact-info">
-            <div class="linkedin"><a href="">LinkedIn</a></div>
-            <div class="github"><a href="">Github</a></div>
-            <div class="email">email goes here<a href=""></a></div>
+            <header class="page-footer">Contact me:</header>
+            <div class="linkedin"><a href="#">LinkedIn</a></div>
+            <div class="github"><a href="#">Github</a></div>
+            <div class="email"><a href="#">email goes here</a></div>
         </div>
     </footer>
     <!-- End Footer -->

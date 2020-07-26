@@ -1,17 +1,58 @@
 body {
-    background-color: aquamarine;
+    background-color:#35354D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+    background-color:black;
+    border: 1px solid orange;
+    width: 178px;
+    height:73px;
+    padding: 0px 15px;
+    font-size:35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.q {
+    color: #9493D5;
+}
+.a {
+ color: #d1d1d1
+}
+.plus {
+    color: white;
+    margin-left: -4px;
+}
+.d {
+    color: #AB8968
+}
+.logo-pipe {
+    color: orange;
+    padding-left: 2px;
+    font-weight: bold;
+    font-size:45px;
+}
+.logo-initial {
+    color: #9493D5;
+}
+h1.title {
+    margin-left: 65px;
+    color: #d1d1d1;
+    font-size: 30px;
 }
 
 header {
+    display: flex;
+    flex-flow: row wrap;
     font-weight: bold;
     color: white;
+    
 }
 
 #navLinks {
     display: flex;
     flex-flow: row wrap;
     background-color: white;
-    color: black;
 }
 
 ul#navlinks {
@@ -27,45 +68,109 @@ ul#navlinks li {
     padding-right: 5px;
 }
 
-#navlinks > ul > li > a {
-color: black;
+#navLinks > li > a{
+color: #3D3C99;
 }
+#navLinks > li > a:hover{
+    color: white;
+    background-color: #3D3C99;
+    }
 
 .fullPage {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     width: 100%;
     
-
 }
 
-#bioPage {
-    
-    background-color: red;
+#bioPage { 
+    background-color:#1F1E4D;
     color: white;
-    
+    display:flex;
+}
+#bioPage header {
+    margin: 5px;
+}
+#bioPage p {
+    background-color: rgba(0,0,0,0.75);
+    color: #d1d1d1;
+    font-size:20px;
+    max-width:55%;
+    padding: 10px;
+    margin: 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#bioPage .image-div {
+    height:245px;
+    background-image: url("images/familyPhoto.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100%;
+    border: 2px solid orange;
+    margin: 5px 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #technologiesPage {
-background-color: green;
+background-color:  #3D3C99;
 color: white;
+color: #d1d1d1;
+    font-size:20px;
+    max-width:55%;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
+
+#devjobs {
+    background-color:  #3D3C99;
+    color: white;
+    color: #d1d1d1;
+    padding: 10px;
+    margin: 10px 0px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
 
 #projectsPage {
-    background-color: black;
-    color: blue;
+    background-color: #000;
+    color: orange;
+    padding: 10px;
+    margin: 5px;
+}
+.project {
+    border: 2px solid orange;
 }
 
-.page-footer {
+footer {
+    background-color: #9493D5;
+    color:white;
     position: relative;
     height:50px;
     width: 100%;
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    margin: 10px 0px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
    
 }
 
+.page-footer {
+    padding-bottom: 10px;
+}
 footer .contact-info {
     position: absolute;
     bottom: 0;
@@ -78,4 +183,11 @@ footer .contact-info {
     font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+
+
+img.project {
+    width: 100%;
+    height: auto;
 }
