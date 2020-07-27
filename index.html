@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky top-header">
         <div id="logo"><span class="q">q</span><span class="a">a</span>
             <span class="plus">+</span><span class="d">d</span><span class="logo-pipe">|</span>
             <span class="logo-initial">WK</span>
@@ -19,19 +19,18 @@
         <h1 class="title"><span class="name">Will Kotheimer</span><span class="pipe">|</span><span
                 class="description">Web and QA
                 Engineering Bio</span></h1>
-
-
+        <!-- Navigation -->
+        <nav>
+            <!-- TODO: Insert some sort of H1-H6 with your name here -->
+            <ul id="navLinks">
+                <li><a href="#">Bio</a></li>
+                <li><a href="#">Technologies</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </nav>
+        <!-- End Navigation -->
     </header>
-    <!-- Navigation -->
-    <nav>
-        <!-- TODO: Insert some sort of H1-H6 with your name here -->
-        <ul id="navLinks">
-            <li><a href="#">Bio</a></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">Projects</a></li>
-        </ul>
-    </nav>
-    <!-- End Navigation -->
+
 
     <!-- Primary View -->
 
@@ -39,12 +38,11 @@
     <section class="fullPage" id="bioPage">
         <header>Background and interest in development:</header>
 
-        <p>When I started out, I wanted to break into writing. I enjoyed the expression and community around it.
+        <div>When I started out, all I wanted to do it work in movies. I got a job out of high school working on a
+            documentary film for two years.
 
-            I ended up in writing camp by my Junior year of high school. But then I pivoted; I decided I wanted to make
-            movies, and worked on a documentary film for two years.
-
-            I chased that dream for a number of years, along with doing lots of side jobs to pay rent, but then decided
+            While I did some other things in video, the career in it didn't materialize. I chased that dream for a
+            number of years, along with doing lots of side jobs to pay rent, but then decided
             I wanted a career and a family.
 
             About 10 years ago, I started back to school at WKU and in 2014 graduated with a Computer Science degree.
@@ -58,8 +56,8 @@
             I decided to go to Nashville Software School because I wanted to explore some areas of development that I
             just hadn't gotten the opportunity to work with before, namely .Net and React. What I hope to get out of
             this
-            is the chance to work in Selenium Engineering or .Net App development.</p>
-        <div class='image-div'>family photo</div>
+            is the chance to work in Selenium Engineering or .Net App development.</div>
+        <div class='image-div'></div>
     </section>
 
     <section class="fullpage" id="devjobs">
@@ -74,7 +72,18 @@
         <p>(2016-2017) Onin Group - PHP Developer</p>
 
         <p>(2015-2016) Acxiom - Email Developer</p>
-        <p>(2010-2014) Western Kentucky University, Computer Science</p>
+        <p>(2010-2014) Western Kentucky University, Computer Science<br />
+            Highlights:
+        <ul>
+            <li>Student Developer: Potter College</li>
+            <li>Intern: Imagewest</li>
+            <li>Intern: Hitcents.com</li>
+            <li>Student Assistant: WKU Networking Department</li>
+            <li>Student Developer: WKU Library</li>
+        </ul>
+
+        </p>
+
     </section>
 
     <section class="fullPage" id="technologiesPage">
