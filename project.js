@@ -13,7 +13,7 @@ const projects = [
     {
         title: "Sorting Hate",
         screenshot: "/images/harrypotter.PNG",
-        description: "For this group project, I worked on being able to show multiple cards, delete cards, and sort."
+        description: "For this group project, I worked on being able to show multiple cards, delete cards, and sort.",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
         url: "https://awesome-pike-bfac13.netlify.app/",
