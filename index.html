@@ -21,11 +21,10 @@
                 Engineering Bio</span></h1>
         <!-- Navigation -->
         <nav>
-            <!-- TODO: Insert some sort of H1-H6 with your name here -->
             <ul id="navLinks">
-                <li><a href="#">Bio</a></li>
-                <li><a href="#">Technologies</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#bioPage">Bio</a></li>
+                <li><a href="#rolesAnchor">Experience</a></li>
+                <li><a href="#techAnchor">Tech&Projects</a></li>
             </ul>
         </nav>
         <!-- End Navigation -->
@@ -50,7 +49,7 @@
             Six years ago I moved to Nashville, got married, and have worked in a number of jobs in development,
             culminating
 
-            in my current position, working in Quality Assurance. I love my job for a number of reasons, not the least
+            in my current position, working in Quality Assurance. I love my job for a lot of reasons, not the least
             of which are the great people.
 
             I decided to go to Nashville Software School because I wanted to explore some areas of development that I
@@ -58,36 +57,50 @@
             this
             is the chance to work in Selenium Engineering or .Net App development.</div>
         <div class='image-div'></div>
-    </section>
 
+    </section>
+    <section id="rolesAnchor"></section>
     <section class="fullpage" id="devjobs">
-        <header>Places I've been:</header>
-        <p>(2020-Present) Nashville Software School - part-time Full Stack Development</p>
-        <p>(2019-Present) 360 View - Junior Quality Assurance</p>
+        <div class="half-page" id="listings">
+            <header>Experience (Drag into white box to see highlights):</header>
+            <div id="nss" draggable="true">
+                (2020-Present) Nashville Software School<br />
+                Part-time Full Stack Development
+            </div>
+            <div id="view360" draggable="true">(2019-Present) 360 View - Junior Quality Assurance</div>
 
-        <p>(2018-2019) Jack Roe USA - Tech Support and QA</p>
+            <div id="jackroe" draggable="true">(2018-2019) Jack Roe USA - Tech Support and QA</div>
 
-        <p>(2017-2018) Advance Financial - Customer Service</p>
+            <div id="advance" draggable="true">(2017-2018) Advance Financial - Customer Service</div>
 
-        <p>(2016-2017) Onin Group - PHP Developer</p>
+            <div id="onin" draggable="true">(2016-2017) Onin Group - PHP Developer</div>
 
-        <p>(2015-2016) Acxiom - Email Developer</p>
-        <p>(2010-2014) Western Kentucky University, Computer Science<br />
-            Highlights:
-        <ul>
-            <li>Student Developer: Potter College</li>
-            <li>Intern: Imagewest</li>
-            <li>Intern: Hitcents.com</li>
-            <li>Student Assistant: WKU Networking Department</li>
-            <li>Student Developer: WKU Library</li>
-        </ul>
-
-        </p>
-
+            <div id="acxiom" draggable="true">(2015-2016) Acxiom - Email Developer</div>
+            <div id="wku" draggable="true">
+                <div>(2010-2014) Western Kentucky University</div>
+                <div>Computer Science / Minor in Advertising</div>
+                <!-- <div>Highlights:
+                <ul>
+                    <li>Student Developer: Potter College</li>
+                    <li>Intern: Imagewest</li>
+                    <li>Intern: Hitcents.com</li>
+                    <li>Student Assistant: WKU Networking Department</li>
+                    <li>Student Developer: WKU Library</li>
+                </ul>
+            </div>-->
+            </div>
+        </div>
+        <div id="highlightArea" class="half-page">
+            <div id="infoArea">info Area</div>
+            <div id="draggingArea">dragging area</div>
+        </div>
     </section>
 
+
+    <section id="techAnchor">
+    </section>
     <section class="fullPage" id="technologiesPage">
-        <header>Technologies I use:</header>
+        <header>Technologies I use (Click to sort by related project):</header>
         <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
         <ul class="technologies">
             <li>HTML/CSS</li>
@@ -98,7 +111,7 @@
         </ul>
     </section>
 
-    <section class="fullPage" id="projectsPage"></section>
+    <section id="projectsPage"></section>
     <!-- End Primary View -->
 
     <!-- Footer -->

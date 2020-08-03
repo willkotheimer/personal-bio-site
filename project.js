@@ -9,9 +9,9 @@ const projects = [
         available: true,
         url: "https://gifted-brattain-dcd491.netlify.app"
     }
-        ,
+    ,
     {
-        title: "Sorting Hate",
+        title: "Sorting Hat",
         screenshot: "/images/harrypotter.PNG",
         description: "For this group project, I worked on being able to show multiple cards, delete cards, and sort.",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
