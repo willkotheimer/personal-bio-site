@@ -8,8 +8,18 @@ const projects = [
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
         url: "https://gifted-brattain-dcd491.netlify.app", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-        githubUrl: "https://github.com/willkotheimer/pet-adoption"
+        githubUrl: "https://github.com/willkotheimer/pet-adoption",
+        ,
+    {
+        title: "Sorting Hate",
+        screenshot: "/images/harrypotter.PNG",
+        description: "For this group project, I worked on being able to show multiple cards, delete cards, and sort."
+        technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        available: true,
+        url: "https://awesome-pike-bfac13.netlify.app/",
+        githubUrl: "https://github.com/willkotheimer/sortingHat"
     }
+
 ];
 
 // printToDom: This function should accept 2 arguments: 
