@@ -110,6 +110,10 @@ text-decoration: none;
     background-color: #3D3C99;
     }
 
+    #techAnchor,#rolesAnchor {
+        height:45px;
+    }
+
 .fullPage {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
@@ -117,6 +121,9 @@ text-decoration: none;
     
 }
 
+.half-page {
+    width: 50%;
+}
 #bioPage { 
     background-color:#1F1E4D;
     color: white;
@@ -162,7 +169,7 @@ color: #d1d1d1;
 
 
 #devjobs {
-    background-color:  #3D3C99;
+    background-color:  #1F1E4D;
     color: white;
     color: #d1d1d1;
     padding: 10px;
@@ -170,6 +177,9 @@ color: #d1d1d1;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-wrap: row wrap;
+    
 }
 
 
@@ -178,14 +188,24 @@ color: #d1d1d1;
     color: orange;
     padding: 10px;
     margin: 5px;
-    display:flex;
-    flex-flow: row wrap;
+   
+    
 }
 .project {
     border: 2px solid orange;
-   
+    width: 352px;
+    height: auto;
+
 }
 
+.technologiesUsed {
+    color: darkslategrey;
+}
+
+.githubUrl {
+    padding-bottom: 5px;
+    border-bottom: 1px solid darkslategrey;
+}
 footer {
     background-color: #9493D5;
     color:white;
@@ -224,4 +244,41 @@ footer .contact-info {
 img.project {
     width: 33%;
     height: auto;
+}
+
+#nss, #view360, #jackroe, #advance, #onin, #acxiom, #wku {
+    background-color: grey;
+    width: 88%;
+    margin: 1px;
+    padding: 2px;
+    border: 1ps solid black;
+    
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+      
+}
+
+#highlightArea {
+    
+    width: 50%;
+    
+}
+#draggingArea {
+    height: 15%;
+    background-color: white;
+}
+#infoArea {
+    padding: 2%;
+    margin-top: 5%;
+    height: 69%;
+    background-color: red;
+}
+
+#listings {
+  
 }
