@@ -90,7 +90,8 @@ function onDrop(event) {
     let description = "";
     switch (id) {
         case "onin":
-            description = `<div><ul><li>Frontend coded momentumcapitalfunding.com (Wordpress) and backend coded major release for oninapps.com timekeeping software (PHP), involving end-to-end design to deployment.</li>   
+            description = `<div id="onin">(2016-2017) Onin Group - PHP Developer
+            </div><div><ul><li>Frontend coded momentumcapitalfunding.com (Wordpress) and backend coded major release for oninapps.com timekeeping software (PHP), involving end-to-end design to deployment.</li>   
             <li>Worked with internal facing customers such as operations team to define issues with system, and also collaborated to create a way of capturing and testing new environment.</li>  
             </ul> 
             </div>`;
@@ -114,7 +115,8 @@ function onDrop(event) {
             </div>`;
             break;
         case "acxiom":
-            description = `<div><ul><li>Worked directly with Sam's Club, CTFS, and Sallie Mae marketing. </li>  
+            description = `<div id="acxiom">(2015-2016) Acxiom - Email Developer
+            </div><div><ul><li>Worked directly with Sam's Club, CTFS, and Sallie Mae marketing. </li>  
             <li>Provided service to coworkers by helping with email QAs.</li>   
             <li>Prioritized work that including immediate launch and up to five day turnarounds. </li>  
             </div>`;
@@ -131,7 +133,11 @@ function onDrop(event) {
             description = `<div>.Net and React</div>`;
             break;
         case "wku":
-            description = `<div>Highlights:
+            description = `<div id="wku">
+            <div>(2010-2014) Western Kentucky University</div>
+            <div>Computer Science / Minor in Advertising</div>
+
+        </div><div>Highlights:
             <ul>
                 <li>Student Developer: Potter College</li>
                 <li>Intern: Imagewest</li>
