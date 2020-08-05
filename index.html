@@ -62,37 +62,34 @@
     <section id="rolesAnchor"></section>
     <section class="fullpage" id="devjobs">
         <div class="half-page" id="listings">
-            <header>Experience (Drag into white box to see highlights):</header>
-            <div id="nss" draggable="true">
+            <header>Experience (Drag into purple box to see highlights):</header>
+            <div id="nss" draggable="true" ondragstart="onDragStart(event);">
                 (2020-Present) Nashville Software School<br />
                 Part-time Full Stack Development
             </div>
-            <div id="view360" draggable="true">(2019-Present) 360 View - Junior Quality Assurance</div>
+            <div id="view360" draggable="true" ondragstart="onDragStart(event);">(2019-Present) 360 View - Junior
+                Quality Assurance</div>
 
-            <div id="jackroe" draggable="true">(2018-2019) Jack Roe USA - Tech Support and QA</div>
+            <div id="jackroe" draggable="true" ondragstart="onDragStart(event);">(2018-2019) Jack Roe USA - Tech Support
+                and QA</div>
 
-            <div id="advance" draggable="true">(2017-2018) Advance Financial - Customer Service</div>
+            <div id="advance" draggable="true" ondragstart="onDragStart(event);">(2017-2018) Advance Financial -
+                Customer Service</div>
 
-            <div id="onin" draggable="true">(2016-2017) Onin Group - PHP Developer</div>
+            <div id="onin" draggable="true" ondragstart="onDragStart(event);">(2016-2017) Onin Group - PHP Developer
+            </div>
 
-            <div id="acxiom" draggable="true">(2015-2016) Acxiom - Email Developer</div>
-            <div id="wku" draggable="true">
+            <div id="acxiom" draggable="true" ondragstart="onDragStart(event);">(2015-2016) Acxiom - Email Developer
+            </div>
+            <div id="wku" draggable="true" ondragstart="onDragStart(event);">
                 <div>(2010-2014) Western Kentucky University</div>
                 <div>Computer Science / Minor in Advertising</div>
-                <!-- <div>Highlights:
-                <ul>
-                    <li>Student Developer: Potter College</li>
-                    <li>Intern: Imagewest</li>
-                    <li>Intern: Hitcents.com</li>
-                    <li>Student Assistant: WKU Networking Department</li>
-                    <li>Student Developer: WKU Library</li>
-                </ul>
-            </div>-->
+
             </div>
         </div>
         <div id="highlightArea" class="half-page">
-            <div id="infoArea">info Area</div>
-            <div id="draggingArea">dragging area</div>
+            <div class="infoArea" id="draggingArea" ondragover="onDragOver(event);" ondrop="onDrop(event);">dragging
+                area</div>
         </div>
     </section>
 

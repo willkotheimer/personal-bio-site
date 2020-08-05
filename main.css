@@ -268,17 +268,12 @@ img.project {
     width: 50%;
     
 }
-#draggingArea {
-    height: 15%;
-    background-color: white;
-}
-#infoArea {
+
+.infoArea {
     padding: 2%;
     margin-top: 5%;
-    height: 69%;
-    background-color: red;
+    height: 84%;
+    background-color: rgba(61, 60, 153, 1);
+    color: orange;
 }
 
-#listings {
-  
-}
