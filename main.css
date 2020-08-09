@@ -1,7 +1,9 @@
 body {
-    background-color:#35354D;
+    /*background-color:#35354D;*/ 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
+    background-color: #282c34;
+    color: #6c6d71;
 }
 
 .top-header {
@@ -15,17 +17,17 @@ body {
   }
 
   .sticky + section#bioPage {
-    padding-top: 150px;
+    padding-top: 65px;
   }
 
 #logo {
-    background-color:black;
+    background-color: black;
     border: 1px solid orange;
-    width: 5.5em;
-    height:2em;
+    width: 6.5em;
+    height: 2em;
     padding: 0px 15px;
-    font-size:35px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .q {
@@ -53,16 +55,19 @@ body {
 h1.title {
     margin-left: 32px;
     color: black;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 header {
     display: flex;
     flex-flow: row wrap;
-    font-weight: bold;
-    color: white;
-    
+    color: white; 
 }
+.headerspecial {
+    width: 200px;
+    padding: 2px 5px;
+    border: 2px solid white;
+    }
 
 nav {
     display: flex;
@@ -93,13 +98,13 @@ ul#navlinks li {
 }
 
 #navLinks > li:nth-child(1) {
-background-color: #1f1e4d;
+background-color: #008000;
 }
 #navLinks > li:nth-child(2) {
-background-color: #3d3c99;
+background-color:  #003300;
 }
 #navLinks > li:nth-child(3) {
-    background-color: #9493d5;
+     background-color: #99ff99;
     }
 #navLinks > li > a{
 color: orange;
@@ -125,67 +130,140 @@ text-decoration: none;
     width: 50%;
 }
 #bioPage { 
-    background-color:#1F1E4D;
-    color: white;
+     color: white;
     display:flex;
-    
+    justify-content: space-between;
+    background: url('images/nashville.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:10px;
+    width: 100%;
+    height: 300px;
 }
 #bioPage header {
     margin: 0px 5px;
+    font-size: 30px;
 }
 #bioPage div {
-    background-color: #1F1E4D;
     color: white;
-    font-size:20px;
-    height:200px;width:100%;font:16px/26px;overflow:auto;
+    font-size:13px;
+    height:200px;width:30%;font:16px/26px;overflow:auto;
   
 }
 
 #bioPage .image-div {
-    height:245px;
+    
+    
+    height: 200px; /* height of container */
+    overflow: hidden;
     background-image: url("images/familyPhoto.JPG");
     background-repeat: no-repeat;
     background-size: 100%;
-    width:31%;
-    border: 2px solid orange;
-    margin: 5px 20px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    object-fit: cover;
+  
 }
 
 #technologiesPage {
-background-color:  #3D3C99;
-color: white;
+/*background-color:  #3D3C99;*/
+background-color: #00b300;
+/* background-color: #009900;
+background-color: #008000;
+background-color: #006600;
+background-color: #004d00;
+background-color: #003300;
+background-color: #001a00; */
 color: #d1d1d1;
     font-size:20px;
-    max-width:55%;
     padding: 10px;
-    margin: 10px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 
 }
 
+#tech {
+display: flex;
+flex-flow: row wrap;
+
+}
+#tech1 {
+    background: url('images/techlogos/html5.png') no-repeat center;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: 100px 100px;
+}
+#tech2 {
+    background: url('images/techlogos/css.png') no-repeat center; 
+    width:100px;
+    background-size: 100px 100px;
+    
+}
+#tech3 {
+    background: url('images/techlogos/js.png') no-repeat center;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: 100px 100px;
+}
+#tech4 {
+    
+    background: url('images/techlogos/selenium.png');
+    width:100px;
+    height: 100px;
+    background-size: 100px 100px;
+}
+#tech5 {
+    background: url('images/techlogos/Csharp.png');
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: 100px 100px;
+    
+}
 
 #devjobs {
-    background-color:  #1F1E4D;
-    color: white;
+    /*background-color:  #1F1E4D;*/
     color: #d1d1d1;
     padding: 10px;
     margin: 10px 0px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
     display: flex;
     flex-wrap: row wrap;
     
 }
 
+div#experience-logo img {
+    width: 150px;
+    height: auto;
+    
+
+#containerSurround {
+    display: flex;
+    flex-wrap: row wrap; 
+    font-size: 15px;
+}
+
+div#experience-logo {
+    border: 1px solid gold;
+    padding-top: 10px;
+}
+}
+div#experience-description {
+    border: 1px solid gold;
+}
+
+#onin-description,#wku-description, #advance-description, #view360-description,
+#acxiom-description,#jackroe-description, #nss-description {
+    width: 100%;
+    background-color: rgb(0, 22, 40);
+    border: 1px solid orange;
+    color: white;
+    font-family: "Courier";
+}
 
 #projectsPage {
     background-color: #000;
-    color: orange;
+    color: blue;
     padding: 10px;
     margin: 5px;
    
@@ -198,6 +276,15 @@ color: #d1d1d1;
 
 }
 
+.projectsContainer {
+    display:flex;
+    flex-flow: row wrap;
+    margin: 2% 5%;
+}
+.projectCard {
+    width: 40%;
+    margin: 2% 5%;
+}
 .technologiesUsed {
     color: darkslategrey;
 }
@@ -242,38 +329,48 @@ footer .contact-info {
 
 
 img.project {
-    width: 33%;
+    width: 98%;
     height: auto;
 }
 
+#listings {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: row wrap;
+    height: 272px;
+}
 #nss, #view360, #jackroe, #advance, #onin, #acxiom, #wku {
-    background-color: grey;
+    
     width: 88%;
     margin: 1px;
     padding: 2px;
-    border: 1ps solid black;
-    
-        -webkit-touch-callout: none; /* iOS Safari */
-          -webkit-user-select: none; /* Safari */
-           -khtml-user-select: none; /* Konqueror HTML */
-             -moz-user-select: none; /* Old versions of Firefox */
-              -ms-user-select: none; /* Internet Explorer/Edge */
-                  user-select: none; /* Non-prefixed version, currently
-                                        supported by Chrome, Edge, Opera and Firefox */
-      
+    border-radius: 8px;
+    background-color: rgb(0, 22, 40);
+    border: 1px solid orange;
+    color: white;
+    font-family: "Courier";
 }
-
+    
 #highlightArea {
-    
     width: 50%;
-    
 }
 
 .infoArea {
     padding: 2%;
     margin-top: 5%;
-    height: 84%;
-    background-color: rgba(61, 60, 153, 1);
-    color: orange;
+    height: 300px;
+    background-color: #94bcc4;
+    /* background-color: rgb(0, 22, 40); */
+    border: 1px solid orange;
+    color: #fff;
+    font-family: "Courier";
+}
+
+.subheading {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.screenshot {
+    border-bottom: 1px solid slategrey;
 }
 

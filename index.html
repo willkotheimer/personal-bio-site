@@ -35,7 +35,7 @@
 
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
     <section class="fullPage" id="bioPage">
-        <header>Background and interest in development:</header>
+        <header class="headerspecial">Will Kotheimer</header>
 
         <div>When I started out, all I wanted to do it work in movies. I got a job out of high school working on a
             documentary film for two years.
@@ -56,13 +56,16 @@
             just hadn't gotten the opportunity to work with before, namely .Net and React. What I hope to get out of
             this
             is the chance to work in Selenium Engineering or .Net App development.</div>
-        <div class='image-div'></div>
+        <!--<div class='image-div'></div>-->
 
     </section>
     <section id="rolesAnchor"></section>
     <section class="fullpage" id="devjobs">
+
         <div class="half-page" id="listings">
-            <header>Experience (Drag into purple box to see highlights):</header>
+            <header class="headerspecial">EXPERIENCE </header>
+            <div class="subheading">(Drag into light blue box to see highlights):</div>
+
             <div id="nss" draggable="true" ondragstart="onDragStart(event);">
                 (2020-Present) Nashville Software School<br />
                 Part-time Full Stack Development
@@ -84,28 +87,37 @@
             <div id="wku" draggable="true" ondragstart="onDragStart(event);">
                 <div>(2010-2014) Western Kentucky University</div>
                 <div>Computer Science / Minor in Advertising</div>
-
             </div>
         </div>
-        <div id="highlightArea" class="half-page">
-            <div class="infoArea" id="draggingArea" ondragover="onDragOver(event);" ondrop="onDrop(event);">dragging
-                area</div>
+        <div class="half-page" id="highlightArea">
+            <div class="infoArea" id="draggingArea" ondragover="onDragOver(event);" ondrop="onDrop(event);"
+                style="height: 84%; width: 89%;">
+            </div>
         </div>
+
     </section>
 
 
     <section id="techAnchor">
     </section>
     <section class="fullPage" id="technologiesPage">
-        <header>Technologies I use (Click to sort by related project):</header>
+        <header class="headerspecial">Technologies I've use:</header>
+        <div class="subheading">(Click to filter by language):</div>
         <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-        <ul class="technologies">
+        <!--<ul class="technologies">
             <li>HTML/CSS</li>
             <li>Javascript</li>
             <li>C#, Java, Python,SQL</li>
             <li>Selenium Webdriver/Specflow</li>
             <li>XPATH</li>
-        </ul>
+        </ul>-->
+        <div id="tech">
+            <div id="tech1" class="techImage"></div>
+            <div id="tech2" class="techImage"></div>
+            <div id="tech3" class="techImage"></div>
+            <div id="tech4" class="techImage"></div>
+            <div id="tech5" class="techImage"></div>
+        </div>
     </section>
 
     <section id="projectsPage"></section>
