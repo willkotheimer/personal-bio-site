@@ -96,7 +96,7 @@ function onDrop(event) {
     switch (id) {
         case "onin":
             description = `<div id="onin-description">(2016-2017) Onin Group - PHP Developer
-            </div><div>Highlights:</div>
+            </div><div><div>Highlights:</div>
             <div id="containerSurround">
             
             <div id="experience-logo"><img src='images/icons/noun_developer_1018327.png'/></div>
@@ -109,22 +109,22 @@ function onDrop(event) {
                 </ul>
             </div>
             </div>
-        </div>`;
+        </div></div>`;
             break;
         case "advance":
             description = `<div id="advance-description">(2017-2018) Advance Financial -
-            Customer Service</div><div>Highlights:</div>
+            Customer Service</div><div><div>Highlights:</div>
             <div id="containerSurround">
             
             <div id="experience-logo"><img src='images/icons/noun_customer service_847498.png'/></div>
             <div id="experience-description"><ul><li>Provided customer support and sold benefits.</li>   
             <li>Entered call notes to record conversation history.</li>   
             </ul>
-            </div></div></div>`;
+            </div></div></div></div>`;
             break;
         case "view360":
             description = `<div id="view360-description">(2019-Present) 360 View - Junior
-            Quality Assurance</div><div>Highlights:</div>
+            Quality Assurance</div><div><div>Highlights:</div>
             <div id="containerSurround">
             
             <div id="experience-logo"><img src='images/icons/noun_Final Approval_995760.png'/></div>
@@ -135,22 +135,22 @@ function onDrop(event) {
             <li>Creates Scenarios in Specflow (Gerkhin) language for automation with Acceptance Criteria.</li>  
             <li>Creates Automated tests with Selenium and C#.</li>  
             </ul>
-            </div></div></div>`;
+            </div></div></div></div>`;
             break;
         case "acxiom":
             description = `<div id="acxiom-description">(2015-2016) Acxiom - Email Developer
-            </div><div>Highlights:</div>
+            </div><div><div>Highlights:</div>
             <div id="containerSurround">
             
             <div id="experience-logo"><img src='images/icons/noun_Email Marketing_3188032.png'/></div>
             <div id="experience-description"><ul><li>Worked directly with Sam's Club, CTFS, and Sallie Mae marketing. </li>  
             <li>Provided service to coworkers by helping with email QAs.</li>   
             <li>Prioritized work that including immediate launch and up to five day turnarounds. </li>  
-            </div></div></div>`;
+            </div></div></div></div>`;
             break;
         case "jackroe":
             description = `<div id="jackroe-description">(2018-2019) Jack Roe USA - Tech Support
-            and QA</div><div>Highlights:</div>
+            and QA</div><div><div>Highlights:</div>
             <div id="containerSurround">
             
             <div id="experience-logo"><img src='images/icons/noun_tech support_368088.png'/></div>
@@ -158,14 +158,14 @@ function onDrop(event) {
             <li> Utilized spec to draw up use cases in excel, copying database data, and reporting findings back to developer. </li>  
             <li>Deployed IOS and Android apps, and set up Google Analytics dashboard.</li>        
             <li>Created Jira Specs including db tables, function, and UI. </li>  
-            </div></div></div>`;
+            </div></div></div></div>`;
             break;
         case "nss":
             description = `<div id="nss-description">
             <div>(2010-2014) Western Kentucky University</div>
             <div>Computer Science / Minor in Advertising</div>
 
-        </div><div>Highlights:</div>
+        </div><div><div>Highlights:</div>
         <div id="containerSurround">
             <div id="experience-logo"><img src='images/icons/noun_education_1013174.png'/></div>
             <div id="experience-description">
@@ -177,7 +177,7 @@ function onDrop(event) {
             </ul>
             </div>
             </div>
-           
+           </div>
         </div>`;
             break;
         case "wku":
@@ -185,7 +185,7 @@ function onDrop(event) {
             <div>(2010-2014) Western Kentucky University</div>
             <div>Computer Science / Minor in Advertising</div>
 
-        </div><div>Highlights:</div>
+        </div><div><div>Highlights:</div>
         <div id="containerSurround">
             
             <div id="experience-logo"><img src='images/icons/noun_education_1013174.png'/></div>
@@ -199,10 +199,10 @@ function onDrop(event) {
             </ul>
             </div>
             </div>
-           
+           </div>
         </div>`;
             break;
-        default: "djshdjsa";
+        default: "";
     }
 
     let infoArea = document.querySelector('.infoArea')
