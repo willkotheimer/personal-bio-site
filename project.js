@@ -34,7 +34,7 @@ const printToDom = (id, stringToPrint) => {
 //through the projects array and build up a 'dom string' 
 
 const createProjectCards = (projectsForCards) => {
-    let myString = `<header class="headerspecial">Some of My Projects:</header><span style='border: 1px solid white; width:100px;'></span>
+    let myString = `<header class="headerspecial">Some of My Projects:</header>
     <div class="projectsContainer">`;
     for (let x = 0; x < projectsForCards.length; x++) {
         if (projectsForCards[x].available !== true) {
