@@ -1,3 +1,6 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 body {
   /*background-color:#35354D;*/ 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -137,7 +140,7 @@ text-decoration: none;
    color: white;
   display:flex;
   justify-content: space-between;
-  /* background: url('images/nashville.png') no-repeat center center fixed; 
+  /* background: url('../images/nashville.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -180,20 +183,20 @@ flex-flow: row wrap;
 
 }
 #tech1 {
-  background: url('images/techlogos/html5.png') no-repeat center;
+  background: url('../images/techlogos/html5.png') no-repeat center;
   width:100px;
   height: 100px;
   border-radius: 50%;
   background-size: 100px 100px;
 }
 #tech2 {
-  background: url('images/techlogos/css.png') no-repeat center; 
+  background: url('../images/techlogos/css.png') no-repeat center; 
   width:100px;
   background-size: 100px 100px;
   
 }
 #tech3 {
-  background: url('images/techlogos/js.png') no-repeat center;
+  background: url('../images/techlogos/js.png') no-repeat center;
   width:100px;
   height: 100px;
   border-radius: 50%;
@@ -201,13 +204,13 @@ flex-flow: row wrap;
 }
 #tech4 {
   
-  background: url('images/techlogos/selenium.png');
+  background: url('../images/techlogos/selenium.png');
   width:100px;
   height: 100px;
   background-size: 100px 100px;
 }
 #tech5 {
-  background: url('images/techlogos/Csharp.png');
+  background: url('../images/techlogos/Csharp.png');
   width:100px;
   height: 100px;
   border-radius: 50%;
