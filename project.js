@@ -3,7 +3,7 @@
 const projects = [
     {
         title: "Pet Adoption",
-        screenshot: "/images/petAdoption.PNG",
+        screenshot: "images/petAdoption.PNG",
         description: "This is a project that allowed me to work on design patterns for javascript event listeners.", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -12,7 +12,7 @@ const projects = [
     ,
     {
         title: "Sorting Hat",
-        screenshot: "/images/harrypotter.PNG",
+        screenshot: "images/harrypotter.PNG",
         description: "For this group project, I worked on being able to show multiple cards, delete cards, and sort.",
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
