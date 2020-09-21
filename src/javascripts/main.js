@@ -3,7 +3,9 @@ import projectsPublish from './project';
 import '../styles/main.scss';
 
 const init = () => {
-  projectsPublish.createProjectCards(projects);
+  projectsPublish.addButtons();
+  projectsPublish.addEvents();
+  projectsPublish.createProjectCards(projects.getProjects());
 };
 
 init();

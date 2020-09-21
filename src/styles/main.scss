@@ -424,9 +424,16 @@ img.project {
 }
 
 .right-names {
-padding: 20px 10px;
-width: 50%;
+margin: 20% auto;
+padding: 30% 10%;
+width: 300px;
+border: 1px solid white;
 }
+
+.outer-right-names {
+margin: 0 auto;
+}
+
 .left-project {
   color: red;
   background-color: white;
