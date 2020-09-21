@@ -1,13 +1,15 @@
+import projects from './helpers/data/projectsData';
+
 const backgroundsForCards = ['#94bcc4', '#c36f31', '#dda982', '#b9cb99', '#b7bf5e', '#076e54'];
 // printToDom: This function should accept 2 arguments:
 // the ID of the element to print it in and a string to print.
 
-const printToDom = (id, stringToPrint) => {
-  const handle = document.getElementById(id);
+const printToDom = (selector, stringToPrint) => {
+  const handle = document.querySelector(selector);
   handle.innerHTML = stringToPrint;
 };
 
-const createProjectCards = (projectsForCards) => {
+const createProjectCards = () => {
   let myString = `<header class='headerspecial'>Some of My Projects:</header>
     <div class='projectsContainer'>`;
   // for (let x = 0; x < projectsForCards.length; x += 1) {
@@ -27,8 +29,25 @@ const createProjectCards = (projectsForCards) => {
   //           `
   //   }
   // }
-  // myString += '</div>'
-  printToDom('projectsPage', myString);
+  // myString += '</div>
 };
 
-export default { createProjectCards };
+const addButtons = () => {
+  let myString = '';
+  projects.getProjects().forEach((project, index) => {
+    myString += `<div class='project-button' id='add-${index}'>${project.title}</div>`;
+  });
+  printToDom('.right-names', myString);
+};
+
+const addEvents = () => {
+  projects.getProjects().forEach((project, index) => {
+    document.querySelector(`#add-${index}`)
+      .addEventListener('click', (e) => {
+        const id = e.target.id;
+        createProjectCards('.inner-project', createProjectCards, id);
+      });
+  });
+};
+
+export default { createProjectCards, addButtons, addEvents };
