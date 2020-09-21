@@ -401,10 +401,16 @@ img.project {
     max-width:105%;
 }
 .bio {
-    overflow: auto;
-    background-color: #d83535;
-    opacity: 90%;
-} 
+  overflow: scroll;
+  opacity: 90%;
+  color: white;
+  font-size: 13px;
+  width: 100%;
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+  font: 16px/26px;
+}
 
 .headertop {
   
@@ -429,6 +435,12 @@ margin: 20% auto;
 padding: 30% 10%;
 width: 300px;
 border: 1px solid white;
+
+  .project-button:hover {
+    background-color:#94bcc4;
+    color: black;
+  }
+  
 }
 
 .outer-right-names {

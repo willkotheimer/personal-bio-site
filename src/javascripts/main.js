@@ -1,5 +1,5 @@
 import projects from './helpers/data/projectsData';
-import projectsPublish from './project';
+import projectsPublish from './components/project';
 import '../styles/main.scss';
 
 const init = () => {
